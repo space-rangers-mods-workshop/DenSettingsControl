@@ -6,7 +6,7 @@
 
 ### Summary
 
-<color=20,250,20>Safe to use</color> Adds a panel for editing settings of game
+Safe to use Adds a panel for editing settings of game
 
 ---
 
@@ -14,7 +14,7 @@
 
 Adds a panel in space, with which you can change game settings and advanced adjustments right while playing.
 You'll find two new buttons in the left upper corner: one for changing advanced adjustments, another - for changing difficulty.
-<color=0,132,15>(can be enabled/disabled during the game)</color>
+(can be enabled/disabled during the game)
 
 ---
 

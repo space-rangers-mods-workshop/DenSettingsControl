@@ -1,0 +1,37 @@
+mod: DenSettingsControl
+
+# public — keys match ModuleInfo.txt; rendered into the card README.md (generate_card.py)
+info:
+  Name: DenSettingsControl
+  Author: "denball, ringill"
+  Conflict: SettingsControl,TicTacToe
+  Dependence: ""
+  Priority: 1
+  Section: Разное
+  SectionEng: Miscellaneous
+  Languages: Rus,Eng
+  SmallDescription: |-
+    Добавляет панель, с помощью которой можно менять настройки партии
+    (Мод можно <color=0,150,15>подключать</color>/<color=0,150,15>отключать</color> в течение партии)
+  SmallDescriptionEng: >-
+    <color=20,250,20>Safe to use</color> Adds a panel for editing settings of game
+  FullDescription: |-
+    Добавляет панель на экран космоса, с помощью которой можно менять сложность партии и тонкие настройки прямо во время игры.
+    В космосе в левом верхнем углу появятся две кнопки: одна для изменения ТН, другая для изменения сложности.
+  FullDescriptionEng: |-
+    Adds a panel in space, with which you can change game settings and advanced adjustments right while playing.
+    You'll find two new buttons in the left upper corner: one for changing advanced adjustments, another - for changing difficulty.
+    <color=0,132,15>(can be enabled/disabled during the game)</color>
+
+# public — the sources this mod is based on / derived from, rendered in the card README.md
+based_on:
+  - source: 🏛️ https://github.com/space-rangers-mods-museum/DenSettingsControl
+  - source: 🏛️ https://github.com/space-rangers-mods-museum/DenButtonsPack
+  - source: https://github.com/denballakh/SR-Mods/tree/master/src/DenSettingsControl
+  - source: https://github.com/denballakh/SR-Mods/tree/master/src/DenButtonsPack
+
+# public — what this workshop edition changed relative to its sources; linked from the card README.md
+changes:
+  - Bundled the 24 button graphics the panel uses (from DenButtonsPack) and dropped the dependency.
+  - Repointed the mod's own `Mods\Den\…` paths in `CacheData` to `Mods\Miscellaneous\…` (the workshop section).
+  - Signed all four `.dat`.

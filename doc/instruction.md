@@ -17,7 +17,9 @@ Download the mod with MO2 mod manager and deploy it — the plugin places the mo
 ### ✋ Manual
 
 1. Make sure the game loads mods from its `Mods\` folder.
-2. Obtain the mod archive — see the mod's page in the [Den Mods wiki](https://space-rangers-mods.fandom.com/ru/wiki/DenSettingsControl) or the [sources repository](https://github.com/denballakh/SR-Mods).
+2. Download the latest release archive from the
+   [GitHub releases page](https://github.com/space-rangers-mods-workshop/DenSettingsControl/releases/latest)
+   (or the [Nexus Mods page](https://www.nexusmods.com/spacerangersawarapart/mods/62)).
 3. Unpack the archive into the game's `Mods\` folder so that the mod folder ends up at:
    ```
    <game root>\Mods\Den\DenSettingsControl
@@ -33,7 +35,7 @@ To remove the mod, delete the `DenSettingsControl` folder.
 - Change the party's **fine (advanced) settings** during play.
 - Can be enabled or disabled during a party.
 
-## ✨ Additional information
+### ℹ️ Additional information
 
 [https://space-rangers-mods.fandom.com/ru/wiki/DenSettingsControl](https://space-rangers-mods.fandom.com/ru/wiki/DenSettingsControl) — the mod's additional description
 
